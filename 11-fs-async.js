@@ -18,7 +18,7 @@ writeFile(
   './content/result-async.txt',
   `Here is the result: ${first}, ${second}`,
   {flag: 'a'}
-  ,(err, result) => {
+  ,(err) => {
     if(err)
     {
       console.log(err);
